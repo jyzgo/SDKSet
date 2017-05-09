@@ -58,7 +58,7 @@ public class FacebookMgr : MonoBehaviour
 
     public void FacebookLogin()
     {
-        ToolbarMgr.current.HideSettingMenu();
+
         if (FB.IsLoggedIn) {
 
             InitUserInfo();
